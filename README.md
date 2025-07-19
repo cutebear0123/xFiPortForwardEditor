@@ -6,24 +6,24 @@
 
 Enable port forwarding:
 ```sh
-python main.py --username admin --password [PASSWORD] enable
+$ python main.py --username admin --password [PASSWORD] enable
 ```
 
 
 Disable port forwarding:
 
 ```sh
-➜ python main.py --username admin --password [PASSWORD] disable
+$ python main.py --username admin --password [PASSWORD] disable
 ```
 
 Add port forward:
 ```sh
-➜ python main.py --username admin --password [PASSWORD] add [NAME] [TCP,UDP,TCP/UDP] [local ip] [port]
+$ python main.py --username admin --password [PASSWORD] add [NAME] [TCP,UDP,TCP/UDP] [local ip] [port]
 ```
 
 Clear all port forwarding:
 ```sh
-➜ python main.py --username admin --password [PASSWORD] clear
+$ python main.py --username admin --password [PASSWORD] clear
 ```
 
 
