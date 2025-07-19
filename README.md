@@ -6,14 +6,14 @@
 
 Enable port forwarding:
 ```sh
-python main.py --username=admin --password=[PASSWORD] enable
+python main.py --username admin --password [PASSWORD] enable
 ```
 
 
 Disable port forwarding:
 
 ```sh
-➜ python main.py --username=admin --password=[PASSWORD] disable
+➜ python main.py --username admin --password [PASSWORD] disable
 ```
 
 Add port forward:
